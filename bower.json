@@ -1,0 +1,21 @@
+{
+  "name": "angular-wizard",
+  "homepage": "https://github.com/frankTadlip/angular-wizard",
+  "authors": [
+    "frank tadlip <frank@bizbox.ph>"
+  ],
+  "description": "wizard for angularjs",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/libs/",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "1.5.5"
+  }
+}
