@@ -1,0 +1,15 @@
+<main>
+    <h1>{{title}}</h1>
+    
+    <ng-transclude></ng-transclude>
+
+    <br>
+
+    <div>
+        <button ng-click="showPreviousStep()" ng-show="hasPrevious()">< Previous</button>
+        <button ng-click="showNextStep()" ng-show="hasNext()">Next ></button>
+        <button ng-click="backToStart()" ng-show="showSubmitAndBackToStart()">Back To Start</button>
+        <button ng-click="onSubmit()" ng-show="showSubmitAndBackToStart()">Submit</button>
+    </div>
+    
+</main>
