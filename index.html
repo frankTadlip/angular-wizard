@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="assets/styles/styles.css" rel="stylesheet" />
+    <title>Document</title>
+</head>
+
+<body style="padding: 0 50px;">
+
+    <section ng-controller="appIndex as vm">
+
+        <wizard on-submit="vm.onSubmit()" title="Testing Wizard">
+            <step title="Step 1">
+                <span>test1</span>
+            </step>
+            <step title="Step 2">
+                <span>test2</span>
+            </step>
+            <step title="Step 3">
+                <span>test3</span>
+            </step>
+            <step title="Step 4">
+                <span>test4</span>
+            </step>
+
+        </wizard>
+
+    </section>
+
+
+    <script src="assets/libs/angular/angular.min.js"></script>
+    <script src="app.js"></script>
+    <script src="index.js"></script>
+    <script src="app/directive/wizard/wizard-controller.js"></script>
+    <script src="app/directive/wizard/wizard-step/wizard-step-controller.js"></script>
+</body>
+
+</html>
